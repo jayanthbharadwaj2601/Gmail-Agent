@@ -1,0 +1,13 @@
+<div class="container1" align="center">
+<div class="container" align="center">
+    <div class="container2" align="center">
+        <p class="dummy"> Hello </p>
+    </div>
+<h1>Unlock Effortless Email Automation</h1>
+<input type="text" #recipients placeholder="Enter recipients,seperated by comma">
+<textarea name="summary" id="" #summary placeholder="Enter brief summary of the mail"></textarea>
+<button (click)="draft(recipients.value,summary.value)">Draft</button>
+<button (click)="send(recipients.value,summary.value)">Send</button>
+</div>
+</div>
+

@@ -1,0 +1,81 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgb(189, 188, 188);
+    padding: 40px 40px;
+    position: relative;
+    /* left: 27.5%; */
+    top: 100px;
+}
+.container123
+{
+    width: 100%;
+}
+@media screen and (max-width: 400px) {
+    .container {
+      width: 95%;
+    }
+  }
+h1
+{
+    background: linear-gradient(to right, cyan ,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation:alternate-reverse;
+    -webkit-animation-direction: alternate-reverse;
+    -webkit-animation-delay: 5ms;
+    
+}
+button
+{
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 20px 20px;
+    background:linear-gradient(to right,rgb(84, 84, 245),rgb(16, 16, 255));
+    color: white;
+    align-self: center;
+    font-size: large;
+    border-style: none;
+    box-shadow: 5px 5px 10px 10px rgb(189, 188, 188);
+}
+.container2
+{
+    width: 60px;
+    border-radius: 50%;
+    padding: 11px;
+    background: linear-gradient(to right,rgba(183, 255, 0, 0.402),rgba(0, 247, 255, 0.406));
+    position: absolute;
+    left: 90%;
+    bottom: 85%
+}
+.container234
+{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    padding: 11px;
+    background: linear-gradient(to right,rgba(183, 255, 0, 0.402),rgba(0, 247, 255, 0.406));
+    position: absolute;
+    left: 70%;
+    bottom: 65%
+}
+.container345
+{
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    padding: 11px;
+    position: relative;
+    bottom: 100px;
+    right: 35%;
+    top: 70%;
+    background: linear-gradient(to right,rgba(183, 255, 0, 0.402),rgba(0, 247, 255, 0.406));
+}
+.dummy
+{
+    -webkit-text-fill-color: transparent;
+}
